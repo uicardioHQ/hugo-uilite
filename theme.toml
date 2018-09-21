@@ -1,0 +1,19 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "UILite"
+license = "MIT"
+licenselink = "https://github.com/uicardiodev/hugo-uilite/blob/master/LICENSE.md"
+description = "Hugo Sodium Theme is minial, clean and responsive component theme"
+homepage = "https://uicard.io/products/hugo-uilite"
+tags = ["minimal","responsive","clean","modern","gradients","portfolio","blog"]
+features = ["blog","features","services","portfolio","contact","team"]
+min_version = "0.31.1"
+
+[author]
+  name = "UICardio"
+  homepage = "https://uicard.io/products/sodium-hugo-theme"
+
+[developer]
+	name = "Arvind"
+	homepage = "https://heyarviind.com"

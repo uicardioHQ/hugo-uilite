@@ -1,0 +1,19 @@
+{{ $experience := .Site.Data.experience }}
+
+<section id="experience" class="green">
+  <h2 class="heading">{{ $experience.title }}</h2>
+  <div id="timeline">
+    {{ range $index, $element := $experience.experience }}
+    <div class="timeline-item clearfix">
+      <div class="timeline-icon"></div>
+      
+      <div class="timeline-content {{ if eq (mod $index 2) 0 }} right {{ end }}">
+        <span class="date">{{ $element.timeperiod }}</span>
+        <h6 class="h3 my-2">{{ $element.company }}</h6>
+        <p class="">{{ $element.description }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+</section>
