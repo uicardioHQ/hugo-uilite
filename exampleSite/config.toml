@@ -1,0 +1,4 @@
+baseURL = "https://demo.uicard.io/hugo-uilite-free/"
+languageCode = "en-us"
+title = "Valentina"
+theme = "uilite"

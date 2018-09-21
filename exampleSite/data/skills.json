@@ -1,0 +1,9 @@
+{
+	"title" : "Skills",
+	"skills" : {
+		"Sketch" : "90",
+		"Adobe XD" : "80",
+		"Illustrator" : "65",
+		"Photoshop" : "97"
+	}
+}
