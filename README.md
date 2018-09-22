@@ -13,3 +13,14 @@ Hugo UILite portfolio theme is designed especially for designers and developers 
 - Social links
 - Good SEO
 
+### Pro version also includes
+
+- Blog
+- Work/portfolio
+- Disqus
+- Documentation
+- Support
+
+### Useful Links
+
+[Free Demo](https://demo.uicard.io/hugo-uilite-free/) | [Pro Demo](https://demo.uicard.io/hugo-uilite-portfolio-demo/) | [More Info](https://uicard.io/products/hugo-uilite-pro?utm_source=github)
