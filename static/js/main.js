@@ -1,11 +1,11 @@
 /*
 *=================================
-* Hugo UILite Portfolio v0.6
+* Hugo UILite Portfolio v0.8
 *=================================
 *
-* Free version https://uicard.io/products/<product_slug>
-* Pro version https://uicard.io/products/<product_slug>
-* Free Demo https://demo.uicard.io/hugo-uilite-free/
+* Free version https://uicard.io/products/hugo-uilite
+* Pro version https://uicard.io/products/hugo-uilite-pro
+* Demo https://demo.uicard.io/hugo-uilite-portfolio-demo/
 *
 * Coded By UICardio
 *
