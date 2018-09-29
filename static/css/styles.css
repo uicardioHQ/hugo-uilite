@@ -2,11 +2,9 @@ html {
   overflow-x: hidden;
   overflow-y: scroll;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 .sidebar {
   position: fixed;
   left: 0px;
@@ -17,7 +15,6 @@ a:hover {
   width: 40%;
   height: 100%;
 }
-
 .sidebar .main-info * {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
