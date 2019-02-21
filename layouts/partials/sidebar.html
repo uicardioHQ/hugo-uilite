@@ -1,5 +1,7 @@
 {{ $sidebar := .Site.Data.sidebar }}
 {{ $social := .Site.Data.social }}
+{{ $socialfas := .Site.Data.socialfas}}
+
 <section id="sidebar" class="sidebar d-flex align-items-center p-5">
   <div class="main-info">
 
@@ -15,11 +17,17 @@
           <i class="fab fa-{{ $key }}"></i>
         </a>
       {{ end }}
-      
+
+      {{ range $key, $value := $socialfas }}
+        <a target="_blank" href="{{ $value }}">
+          <i class="fas fa-{{ $key }}"></i>
+        </a>
+      {{ end }}
+
     </div>
-    
+
     <a href="#contact" class="btn btn-dark btn-lg">Contact</a>
 
-    
+
   </div>
 </section>
