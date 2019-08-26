@@ -1,0 +1,167 @@
+stackbitVersion: ~0.2.0
+ssgName: custom
+publishDir: exampleSite/public
+buildCommand: cd exampleSite && hugo --gc --baseURL "/" --themesDir ../.. && cd ..
+uploadDir: img
+staticDir: exampleSite/static
+pagesDir: exampleSite/content
+dataDir: exampleSite
+models:
+  config:
+    type: data
+    label: Config
+    file: config.toml
+    fields:
+      - type: string
+        name: title
+        label: Title
+        required: true
+      - type: string
+        name: baseURL
+        label: Base baseURL
+        description: Hostname (and path)  to the root
+      - type: string
+        name: languageCode
+        label: Language Code "en"
+      - type: string
+        name: theme
+        label: Theme Name 
+      - type: string
+        name: themesDir
+        label: Themes Folder Path
+  author:
+    type: data
+    label: Author Data
+    file: data/author.json
+    fields: 
+      - type: string
+        name: author
+        label: Author
+      - type: string
+        name: email
+        label: Email
+  experience:
+    type: data
+    label: Experience Data
+    file: data/experience.json
+    fields: 
+      - type: string
+        name: title
+        label: Title
+      - type: list
+        name: experience
+        label: Experience list
+        items: 
+          type: object
+          fields: 
+            - type: string
+              name: timeperiod
+              label: Time Period
+            - type: string
+              name: company
+              label: Company Name
+            - type: string
+              name: website
+              label: Company Website
+            - type: string
+              name: description
+              label: Description
+  services: 
+    type: data
+    label: Services Data
+    file: data/services.json
+    fields: 
+      - type: string
+        name: title
+        label: Title
+      - type: list
+        name: services
+        label: Services List
+        items: 
+          type: object
+          fields: 
+            - type: string
+              name: icon
+              label: Icon
+            - type: string
+              name: title
+              label: Title
+            - type: string
+              name: description
+              label: Description
+  sidebar: 
+    type: data
+    label: Sidebar Data
+    file: data/sidebar.json
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: highlightedText
+        label: Highlighted Text
+      - type: string
+        name: description
+        label: Description
+      - type: image
+        name: displayPicture
+        label: Display Picture
+  skills:
+    type: data
+    label: Skills Data
+    file: data/skills.json
+    fields:
+      - type: string
+        name: title
+        label: Title
+      - type: object
+        name: skills
+        label: Skills
+        fields:
+          - type: number
+            name: Sketch
+            label: Sketch
+          - type: number
+            name: Adobe XD
+            label: Adobe XD
+          - type: number
+            name: Illustrator
+            label: Illustrator
+          - type: number
+            name: Photoshop
+            label: Photoshop
+  social:
+    type: data
+    label: Social Data
+    file: data/social.json
+    fields:
+      - type: string
+        name: facebook
+        label: Your Facebook
+      - type: string
+        name: instagram
+        label: Instagram
+      - type: string
+        name: dribbble
+        label: Dribbble
+      - type: string
+        name: behance
+        label: Behance
+  socialfas:
+    type: data
+    label: Socialfas Data
+    file: data/socialfas.json
+    fields:
+      - type: string
+        name: envelope
+        label: Envelope
+
+
+
+
+
+
+              
+
+
+
