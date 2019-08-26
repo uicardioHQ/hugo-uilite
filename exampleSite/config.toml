@@ -1,4 +1,4 @@
-baseURL = "https://demo.uicard.io/hugo-uilite-free/"
+baseURL = "https://example.com/"
 languageCode = "en-us"
 title = "Valentina"
 theme = "hugo-uilite"

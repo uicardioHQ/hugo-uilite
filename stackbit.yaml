@@ -2,7 +2,7 @@ stackbitVersion: ~0.2.0
 ssgName: custom
 publishDir: exampleSite/public
 buildCommand: cd exampleSite && hugo --gc --baseURL "/" --themesDir ../.. && cd ..
-uploadDir: img
+uploadDir: images
 staticDir: exampleSite/static
 pagesDir: exampleSite/content
 dataDir: exampleSite
@@ -115,14 +115,14 @@ models:
         name: title
         label: Title
       - type: list
-        name: skills
+        name: skilllist
         label: Skills
         items:
           type: object
           fields:
             - type: string
               name: skill
-              label: Skill
+              label: Skill Name
             - type: number
               name: value
               label: Skill value

@@ -1,21 +1,21 @@
 {
 	"title" : "Skills",
-	"skills" : [
+	"skilllist" : [
 		{
 			"skill": "Sketch",
-			"value": "90"
+			"value": 90
 		},
 		{
 			"skill": "Adobe XD",
-			"value": "80"
+			"value": 80
 		},
 		{
 			"skill": "Illustrator",
-			"value": "65"
+			"value": 65
 		},
 		{
 			"skill": "Photoshop",
-			"value": "97"
+			"value": 97
 		}
 	]
 }
