@@ -114,22 +114,18 @@ models:
       - type: string
         name: title
         label: Title
-      - type: object
+      - type: list
         name: skills
         label: Skills
-        fields:
-          - type: number
-            name: Sketch
-            label: Sketch
-          - type: number
-            name: Adobe XD
-            label: Adobe XD
-          - type: number
-            name: Illustrator
-            label: Illustrator
-          - type: number
-            name: Photoshop
-            label: Photoshop
+        items:
+          type: object
+          fields:
+            - type: string
+              name: skill
+              label: Skill
+            - type: number
+              name: value
+              label: Skill value
   social:
     type: data
     label: Social Data
