@@ -25,8 +25,8 @@ Hugo UILite portfolio theme is designed especially for designers and developers 
 
 [Free Demo](https://demo.uicard.io/hugo-uilite-free/) | [Pro Demo](https://demo.uicard.io/hugo-uilite-portfolio-demo/) | [More Info](https://uicard.io/products/hugo-uilite-pro?utm_source=github)
 
-# Stackbit Deploy
+## Stackbit
 
-This theme is is ready to import into Stackbit. This will deploy the site to Netlify and optionally you can select a headless CMS so you can edit the content without ever touching the code. 
+This theme is ready to import into Stackbit. This theme can be deployed to Netlify and you can connect any headless CMS including Forestry, NetlifyCMS, DatoCMS or Contentful. 
 
 [![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/uicardiodev/hugo-uilite)
