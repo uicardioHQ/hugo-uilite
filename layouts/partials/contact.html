@@ -8,7 +8,7 @@
         {{ $config.message }}
       </div>
 
-      <form action="https://formspree.io/{{ $config.email }}" method="post">
+      <form action="{{ $config.formspree }}" method="post">
         <div class="form-row">
           <div class="col-12 col-xl-6 col-lg-6 col-md-6">
             <label>Name</label>
