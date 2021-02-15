@@ -29,4 +29,4 @@ Hugo UILite portfolio theme is designed especially for designers and developers 
 
 - [Register](https://formspree.io/)
 - [Create a Project and a Form](https://help.formspree.io/hc/en-us/articles/360053239754-Getting-started-with-projects)
-- Add your **form endpoint** to `data/config.json
+- Add your **form endpoint** to `data/config.json`
