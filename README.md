@@ -24,3 +24,9 @@ Hugo UILite portfolio theme is designed especially for designers and developers 
 ### Useful Links
 
 [Free Demo](https://demo.uicard.io/hugo-uilite-free/) | [Pro Demo](https://demo.uicard.io/hugo-uilite-portfolio-demo/) | [More Info](https://uicard.io/products/hugo-uilite-pro?utm_source=github)
+
+### Contact via Formspree
+
+- [Register](https://formspree.io/)
+- [Create a Project and a Form](https://help.formspree.io/hc/en-us/articles/360053239754-Getting-started-with-projects)
+- Add your **form endpoint** to `data/config.json`
