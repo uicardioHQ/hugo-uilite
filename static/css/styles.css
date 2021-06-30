@@ -1,3 +1,23 @@
+/* montserrat-800 - vietnamese_latin_cyrillic_cyrillic-ext_latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/montserrat-v14-vietnamese_latin_cyrillic_cyrillic-ext_latin-ext-800.eot');
+  /* IE9 Compat Modes */
+  src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+    url('../fonts/montserrat-v14-vietnamese_latin_cyrillic_cyrillic-ext_latin-ext-800.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/montserrat-v14-vietnamese_latin_cyrillic_cyrillic-ext_latin-ext-800.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/montserrat-v14-vietnamese_latin_cyrillic_cyrillic-ext_latin-ext-800.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/montserrat-v14-vietnamese_latin_cyrillic_cyrillic-ext_latin-ext-800.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/montserrat-v14-vietnamese_latin_cyrillic_cyrillic-ext_latin-ext-800.svg#Montserrat') format('svg');
+  /* Legacy iOS */
+}
+
 html {
   overflow-x: hidden;
   overflow-y: scroll;
