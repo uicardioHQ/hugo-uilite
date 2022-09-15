@@ -12,6 +12,7 @@ Hugo UILite portfolio theme is designed especially for designers and developers 
 - Contact Form
 - Social links
 - Good SEO
+- Google Analytics Integration
 
 ### Pro version also includes
 
